@@ -36,14 +36,14 @@
 				<table class="table">
 					<thead>
 						<tr>
-							<th scope="col">Course Id<br></th>
-							<th scope="col">Course <br>Name<br></th>
-							<!-- <th scope="col">Course Fee</th> -->
+							<th scope="col">Course Name</th>
+							<!---<th scope="col">Course Name</th>--->
+							 <th scope="col">Course Fee</th>
 							<th scope="col">Course Duration(in Mins.)</th>
 							<th scope="col">Description<br></th>
-						<!-- 	<th scope="col">Action</th> -->
-							<!-- <th scope="col">Course profile</th> -->
-							
+							<th scope="col">Date</th>
+						<!---<th scope="col">Course profile</th> -->
+							<th scope="col">Action</th> 
 						</tr>
 					</thead>
 		
@@ -54,7 +54,7 @@
 							<!-- <td th:text="${c.courseFee}"></td> -->
 							<td th:text="${c.courseDuration}"></td>
 							<td th:text="${c.courseDescription}"></td>
-						<!-- 	<td th:file="${c.courseProfile}"></td> -->
+							<td th:file="${c.courseProfile}"></td> -->
 						
 						<!-- <td><form method="post" th:action="@{'/update-course/'+${c.courseId}}" class="mt-2" style="display:inline;">
 							
@@ -72,7 +72,7 @@
 					
 					<tr> 
 					
-					<!-- <tr>
+				 <tr>
 							
 							<th scope="col">
 							<img src="../img/pic1.jpg" style="height: 100px; width: 150px;" />
@@ -81,24 +81,43 @@
 							<th scope="col">12000</th>
 							<th scope="col">3 months</th>
 							<th scope="col">Java SE8, Hibernate</th>
-							<th scope="col">14-Jun-2022</th>
-							<th scope="col">15-Sept-2022</th>
-							<th scope="col">Enroll</th>
+							<th scope="col">14-Jun-2022 to 15-Sept-2022</th>
+							
+							<!--<th scope="col">Enroll</th> --->
+							
+						<th scope="col"><button class="btn btn-primary btn-sm">enroll</button><th>
+					
+							
 					</tr>
 					
+					
+						
 					
 					<tr>
 							
 							<th scope="col">
 							<img src="../img/pic1.jpg" style="height: 100px; width: 150px;" />
 							
-							Java Advanced</th>
+							Full Stack Developer</th>
 							<th scope="col">12000</th>
 							<th scope="col">3 months</th>
-							<th scope="col">Java SE8, Hibernate</th>
-							<th scope="col">14-Jun-2022</th>
-							<th scope="col">15-Sept-2022</th>
-							<th scope="col">Enroll</th>
+							<th scope="col">Core java and Advanced Java ,Java SE8, Hibernate</th>
+							<th scope="col">14-Jun-2022 to 15-Sept-2022</th>
+							
+							<th scope="col"><button class="btn btn-primary btn-sm">enroll</button><th>
+					</tr>
+					
+					<tr>
+							<th scope="col">
+							<img src="../img/pic1.jpg" style="height: 100px; width: 150px;" />
+							
+							C language</th>
+							<th scope="col">10000</th>
+							<th scope="col">3 months</th>
+							<th scope="col">Basic C and CPP</th>
+							<th scope="col">14-Jun-2022 to 15-Sept-2022</th>
+							
+							<th scope="col"><button class="btn btn-primary btn-sm">enroll</button><th>
 					</tr>
 					
 					<tr>
@@ -106,41 +125,15 @@
 							<th scope="col">
 							<img src="../img/pic1.jpg" style="height: 100px; width: 150px;" />
 							
-							Java Advanced</th>
-							<th scope="col">12000</th>
-							<th scope="col">3 months</th>
-							<th scope="col">Java SE8, Hibernate</th>
-							<th scope="col">14-Jun-2022</th>
-							<th scope="col">15-Sept-2022</th>
-							<th scope="col">Enroll</th>
-					</tr>
-					
-					<tr>
-							<th scope="col">
-							<img src="../img/pic1.jpg" style="height: 100px; width: 150px;" />
+							Core Java </th>
+							<th scope="col" class="mb-4">15000</th>
+							<th scope="col">4 months</th>
+							<th scope="col">Python Programming</th>
+							<th scope="col">09-Sep-2022 to 10-Dec-2022</th>
 							
-							Java Advanced</th>
-							<th scope="col">12000</th>
-							<th scope="col">3 months</th>
-							<th scope="col">Java SE8, Hibernate</th>
-							<th scope="col">14-Jun-2022</th>
-							<th scope="col">15-Sept-2022</th>
-							<th scope="col">Enroll</th>
-					</tr>
-					
-					<tr>
+							<th scope="col"><button class="btn btn-primary btn-sm">enroll</button><th>
 							
-							<th scope="col">
-							<img src="../img/pic1.jpg" style="height: 100px; width: 150px;" />
-							
-							Java Advanced</th>
-							<th scope="col" class="mb-4">12000</th>
-							<th scope="col">3 months</th>
-							<th scope="col">Java SE8, Hibernate</th>
-							<th scope="col">14-Jun-2022</th>
-							<th scope="col">15-Sept-2022</th>
-							<th scope="col">Enroll</th>
-					</tr> -->
+					</tr> 
 					
 					
 					
